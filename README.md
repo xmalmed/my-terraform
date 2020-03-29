@@ -3,6 +3,7 @@ Terraform learning repo - AWS infrastructure
 
 ## First
 Create an AWS account & crate in IAM access (credentials) for terraform project. 
+
 Save the credentials in `~/.aws/credentials` as [terraform] & set up region in `~/.aws/config` (there is a different format of naming, like [profile terraform]
 (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
@@ -13,7 +14,9 @@ Find the public AMI id to be created as ec2 instance.
 
 ## That's it
 terraform plan
+
 terraform apply
+
 terraform destroy
 
 terraform console
